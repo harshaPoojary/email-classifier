@@ -51,18 +51,20 @@ Compliant with Akaike’s required input/output API schema
 }
 
 
-##  Output Format
+## 📤 Output Format
 
+```json
 {
-  "input_email_body": "...",
-  "masked_email": "...",
+  "input_email_body": "string containing the email",
   "list_of_masked_entities": [
     {
       "position": [start_index, end_index],
       "classification": "entity_type",
-      "entity": "original_value"
+      "entity": "original_entity_value"
     }
   ],
-  "category_of_the_email": "Incident" // or others
+  "masked_email": "string containing the masked email",
+  "category_of_the_email": "string containing the class"
 }
+```
 
