@@ -43,7 +43,7 @@ Compliant with Akaike’s required input/output API schema
 
 
 
-### Input Format (POST)
+### Input Format and  Output Format
 
 ```json
 {
