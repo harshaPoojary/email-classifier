@@ -1,4 +1,4 @@
-# Email Classification & PII Masking System - 
+# Email Classification & PII Masking System 
 
 This project is built for the Akaike Tech internship assignment. It classifies incoming support emails into categories like Billing Issues, Technical Support, etc., while masking Personally Identifiable Information (PII) and PCI-sensitive details.
 
@@ -51,7 +51,7 @@ Compliant with Akaike’s required input/output API schema
 }
 
 
-## 📤 Output Format
+## Output Format
 
 ```json
 {
