@@ -45,5 +45,5 @@ def classify(request: EmailRequest):
 
 
     except Exception as e:
-        print("🔥 INTERNAL ERROR:", str(e))
+        print(" INTERNAL ERROR:", str(e))
         return {"error": "Internal Server Error"}
