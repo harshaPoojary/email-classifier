@@ -50,7 +50,9 @@ Compliant with Akaike’s required input/output API schema
   "input_email_body": "Your support email content"
 }
 
-## output format
+
+##  Output Format
+
 {
   "input_email_body": "...",
   "masked_email": "...",
